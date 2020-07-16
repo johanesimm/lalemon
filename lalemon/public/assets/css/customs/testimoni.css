@@ -1,0 +1,140 @@
+/* Phone Mode */
+@media only screen and (max-width: 400px)
+{
+    h5.testimoni-header
+    {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+    
+        display: flex;
+        align-items: center;
+    
+        color: #000000;
+    }
+    
+    h6.sub-header
+    {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+    
+        display: flex;
+        align-items: center;
+    
+        color: #000000;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 720px)
+{
+    h5.testimoni-header
+    {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+
+    div.content-wrapper {
+        padding-bottom: 220px;
+    }
+
+    h6.sub-header
+    {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1440px)
+{
+    h5.testimoni-header
+    {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+
+    div.content-wrapper {
+        padding-bottom: 220px;
+    }
+
+    h6.sub-header
+    {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 1460px)
+{
+    h5.testimoni-header
+    {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+
+    h6.sub-header
+    {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        color: #000000;
+    }
+}

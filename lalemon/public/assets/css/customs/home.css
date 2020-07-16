@@ -1,0 +1,990 @@
+@font-face {
+    font-family: utsaahFont;
+    src: url('/assets/fonts/utsaah.ttf');
+}
+
+/* Scrollbar custom */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #C4C4C4;
+    border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #8F8F8F; 
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.lalemon-navbar
+{
+    background-color: #E02627;
+}
+
+ul.navbar-nav
+{
+    width: 98%;
+    display: block;
+}
+
+.margin-top-15
+{
+    margin-top: 15px;
+}
+
+.margin-top-10
+{
+    margin-top: 10px;
+}
+
+p.lbl-find-us
+{
+    font-family: Coves;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 5px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.bg-lalemon-footer
+{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #E02627;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* div.icon-background
+{
+    width: 100px;
+    min-height: 80px;
+    background-color: #EC3131;
+} */
+
+/* Responsive css */
+
+/* Phone Mode */
+@media only screen and (max-width: 460px)
+{
+    /* Banner Promo */
+    div.banner-promo
+    {
+        width: 100%;
+        /* height: 150px; */
+        /* background-color: #C4C4C4; */
+        border-radius: 10px;
+        position: relative;
+    }
+
+    /* FAQ */
+    div.faq-header
+    {
+        width : 100%;
+        height: 50px;
+        /* min-width: 343px; */
+        /* min-height: 60px; */
+        background-color: #E02627;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        position: relative;
+        padding-top: 12px;
+    }
+
+    p.text-default-faq
+    {
+        font-family: utsaahFont;
+        text-align: center;
+        font-size: 18px; 
+        font-weight: 600; 
+        color: white;
+    }
+
+    div.faq-body
+    {
+        width: 100%;
+        /* display: block; */
+        padding-bottom: 20px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    div.faq-body > div.faq-card
+    {
+        /* margin-top: 10px; */
+        text-align: center;
+        padding-top: 15px;
+        /* padding-left: 10px; */
+        /* padding-right: 10px; */
+        display: inline-block;
+        width: 100%;
+        min-height: 150px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 25px;
+        margin-right: 30px;
+        word-wrap: break-word;
+    }
+
+    div.faq-card > p.faq-question
+    {
+        font-family: utsaahFont;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        /* align-items: center; */
+        word-break: break-all;
+        white-space: normal;
+        color: #000000;
+    }
+
+    div.faq-card > p.faq-answer
+    {
+        font-family: utsaahFont;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        /* align-items: center; */
+        word-break: break-all;
+        white-space: normal;
+        color: #000000;
+    }
+
+    .bg-lalemon-footer
+    {
+        min-height: 200px;
+    }
+
+    .img-footer
+    {
+        width: 40px;
+        height: 36px;
+    }
+
+    .content-wrapper
+    {
+        padding-top: 1px;
+        padding-bottom: 240px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .desktop-only
+    {
+        display: none !important;
+    }
+
+    .navbar-header > .navbar-nav > li.icon
+    {
+        width: 75%;
+        text-align: center;
+    }
+
+    .page-container {
+        padding: 20px 16px !important;
+    }
+
+    div#navbar-mobile
+    {
+        background-color: white;
+    }
+
+    div#navbar-mobile > ul.navbar-nav
+    {
+        border-right: 1px solid rgba(0,0,0,0.2);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    ul.navbar-nav > li.width-20
+    {
+        border-bottom: 1px solid #C4C4C4;
+        padding-bottom: 5px;
+    }
+
+    ul.navbar-nav > li.width-20:last-child
+    {
+        border-bottom: 0;
+    }
+
+    div#navbar-mobile > ul.navbar-nav > li > a 
+    {
+        color: #E02627 !important;
+        z-index: 1;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    div.floating-btn-container
+    {
+        width: 16%;
+        text-align: center;
+        z-index: 1;
+        bottom: 208px;
+        right: 10px;
+        position: fixed;
+    }
+
+    div.floating-btn-container > div > img 
+    {
+        width: 55px;
+        height: 55px;
+    }
+
+    
+
+    p.text-default-promo
+    {
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 22px;
+        font-weight: bold;
+        margin: -40px 0 0 -100px;
+    }
+
+    img.main-topic
+    {
+        border-radius: 10px;
+        width: 100%;
+        height: 220px;
+    }
+
+    div.topic-img-container
+    {
+        position: relative;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    p.text-topic-default
+    {
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 22px;
+        font-weight: bold;
+        margin: -55px 0 0 -55px;
+        color: white;
+    }
+
+    img.sc-testimoni
+    {
+        width: 327px;
+    }
+
+    img.main-image-lalemon
+    {
+        width : 65px;
+        height: 35px;
+    }
+
+    p.txt-footer
+    {
+        text-align: center;
+        color: white;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 680px)
+{
+    /* Banner Promo */
+    div.banner-promo
+    {
+        width: 100%;
+        /* min-width: 343px; */
+        /* min-height: 135px; */
+        background-color: #C4C4C4;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    /* FAQ */
+    div.faq-header
+    {
+        width: 100%;
+        height: 50px;
+        /* min-width: 343px; */
+        /* min-height: 60px; */
+        background-color: #E02627;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        position: relative;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    p.text-default-faq
+    {
+        /* padding: 20px; */
+        /* position: absolute; */
+        top: 50%;
+        /* left: 50%; */
+        font-family: utsaahFont;
+        font-size: 22px;
+        font-weight: 600;
+        /* margin: -34px 0 0 -39px; */
+        color: white;
+    }
+
+    div.faq-body
+    {
+        width: 100%;
+        /* display: block; */
+        padding-bottom: 20px;
+        padding-left: 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    div.faq-body > div.faq-card
+    {
+        margin-top: 10px;
+        text-align: center;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: inline-block;
+        width: 75%;
+        min-height: 150px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin-right: 30px;
+        word-wrap: break-word;
+    }
+
+    div.faq-card > p.faq-question
+    {
+        font-family: utsaahFont;
+        /* font-style: normal; */
+        font-weight: 600;
+        font-size: 18px;
+        /* align-items: center; */
+        word-break: break-all;
+        white-space: normal;
+        color: #000000;
+    }
+
+    div.faq-card > p.faq-answer
+    {
+        font-family: utsaahFont;
+        /* font-style: normal; */
+        font-weight: normal;
+        font-size: 16px;
+        /* align-items: center; */
+        word-break: break-all;
+        white-space: normal;
+        color: #000000;
+    }
+
+    .bg-lalemon-footer
+    {
+        min-height: 200px;
+    }
+
+    .img-footer
+    {
+        width: 40px;
+        height: 36px;
+    }
+
+    .content-wrapper
+    {
+        padding-top: 1px;
+        padding-bottom: 20px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .desktop-only
+    {
+        display: none !important;
+    }
+
+    .navbar-header > .navbar-nav > li.icon
+    {
+        width: 85%;
+        text-align: center;
+    }
+
+    div#navbar-mobile
+    {
+        background-color: white;
+    }
+
+    div#navbar-mobile > ul.navbar-nav
+    {
+        border-right: 1px solid rgba(0,0,0,0.2);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    ul.navbar-nav > li.width-20
+    {
+        border-bottom: 1px solid #C4C4C4;
+        padding-bottom: 5px;
+    }
+
+    ul.navbar-nav > li.width-20:last-child
+    {
+        border-bottom: 0;
+    }
+
+    div#navbar-mobile > ul.navbar-nav > li > a 
+    {
+        color: #E02627 !important;
+        z-index: 1;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    div.floating-btn-container
+    {
+        width: 16%;
+        text-align: center;
+        z-index: 1;
+        bottom: 208px;
+        right: 5px;
+        position: fixed;
+    }
+
+    div.floating-btn-container > div > img 
+    {
+        width: 55px;
+        height: 55px;
+    }
+
+    p.text-default-promo
+    {
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 22px;
+        font-weight: bold;
+        margin: -40px 0 0 -100px;
+    }
+
+    img.main-topic
+    {
+        border-radius: 10px;
+        width: 100%;
+        height: 220px;
+    }
+
+    div.topic-img-container
+    {
+        position: relative;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    p.text-topic-default
+    {
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 22px;
+        font-weight: bold;
+        margin: -55px 0 0 -55px;
+        color: white;
+    }
+
+    img.sc-testimoni
+    {
+        width: 365px;
+    }
+
+    img.main-image-lalemon
+    {
+        width : 65px;
+        height: 35px;
+    }
+
+    p.txt-footer
+    {
+        text-align: center;
+        color: white;
+        font-size: 12px;
+    }
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-width: 680px) and (max-width: 1024px) {
+    img.main-image-lalemon {
+        display: none;
+    }
+    /* Banner Promo */
+    div.banner-promo
+    {
+        width: 100%;
+        /* min-height: 397px; */
+        /* background-color: #C4C4C4; */
+        border-radius: 10px;
+        position: relative;
+    }
+
+     /* FAQ */
+     div.faq-header
+     {
+         min-width: 100%;
+         height: 50px;
+         background-color: #E02627;
+         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+         border-radius: 10px;
+         position: relative;
+         padding-top: 10px;
+      }
+ 
+     div.faq-body
+     {
+         display: block;
+         padding-top: 10px;
+         padding-bottom: 20px;
+         overflow-x: auto;
+         white-space: nowrap;
+     }
+ 
+     div.faq-body > div.faq-card
+     {
+         text-align: center;
+         padding-top: 20px;
+         padding-left: 10px;
+         padding-right: 10px;
+         display: inline-block;
+         width: 25%;
+         min-height: 223px;
+         background: #FFFFFF;
+         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+         border-radius: 15px;
+         margin-right: 30px;
+         word-wrap: break-word;
+     }
+ 
+     div.faq-card > p.faq-question
+     {
+         font-family: utsaahFont;
+         font-style: normal;
+         font-weight: 600;
+         font-size: 18px;
+         /* align-items: center; */
+         word-break: break-all;
+         white-space: normal;
+         color: #000000;
+     }
+ 
+     div.faq-card > p.faq-answer
+     {
+         font-family: Helvetica;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 12px;
+         align-items: center;
+         word-break: break-all;
+         white-space: normal;
+         color: #000000;
+     }
+  
+     p.text-default-faq
+     {
+         /* padding: 20px; */
+         /* position: absolute; */
+         top: 50%;
+         text-align: center;
+         /* left: 50%; */
+         font-size: 18px;
+         font-weight: 600;
+         /* margin: -35px 0 0 -35px; */
+         color: white;
+     }
+
+    .mobile-only
+    {
+        display: none !important;
+    }
+
+    .content-wrapper
+    {
+        padding-top: 1px;
+        padding-bottom: 20px;
+        padding-left: 70px !important;
+        padding-right: 80px !important;
+    }
+
+    .lalemon-navbar
+    {
+        background-color: #E02627;
+    }
+
+    ul.navbar-nav > li.width-20
+    {
+        width: 20%;
+        padding-top: 10px;
+    }
+
+    ul.navbar-nav > li > a 
+    {
+        z-index: 1;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    ul.navbar-nav > li > div.active
+    {
+        width: 80%;
+        background-color: #E02627;
+        position: absolute;
+        left: 11%;
+        border-bottom-right-radius: 75%;
+        border-bottom-left-radius: 75%;
+        top: 77%;
+        padding-bottom: 50px;
+    }
+
+    li.visible-md-block {
+        display: block !important;
+    }
+
+    p.text-default-promo
+    {
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 22px;
+        font-weight: bold;
+        margin: -40px 0 0 -100px;
+    }
+
+    div.floating-btn-container
+    {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width: 10%;
+        top: 120px;
+        text-align: center;
+        z-index: 1;
+        right: 16px;
+        position: fixed;
+    }
+
+    img.sc-testimoni
+    {
+        width: 1350px;
+    }
+
+    img.main-topic
+    {
+        border-radius: 10px;
+        width: 100%;
+        height: 325px;
+    }
+
+    div.topic-img-container
+    {
+        position: relative;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    p.text-topic-default
+    {
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 22px;
+        font-weight: bold;
+        margin: -55px 0 0 -55px;
+        color: white;
+    }
+
+    .footer-navbar
+    {
+        width: 84% !important;
+        display: inline-block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
+
+    div#footer > ul > li > p
+    {
+        font-size: 22px;
+        text-align: center;
+        color: white;
+    }
+
+    div.margin-lg-left-30
+    {
+        margin-left: 30px;
+    }
+
+    img.main-image-lalemon
+    {
+        width : 300px;
+        height: 120px;
+    }
+
+    p.txt-footer
+    {
+        text-align: center;
+        color: white;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1024px)
+{
+    .mobile-only
+    {
+        display: none !important;
+    }
+
+    /* Banner Promo */
+    div.banner-promo
+    {
+        width: 100%;
+        border-radius: 10px;
+        position: relative;
+    }
+
+     /* FAQ */
+    div.faq-header
+    {
+        width: 100%;
+        height: 45px;
+        /* min-height: 76px; */
+        background-color: #E02627;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        position: relative;
+        text-align: center;;
+    }
+
+    div.faq-body
+    {
+        display: block;
+        /* padding-top: 10px; */
+        padding-bottom: 20px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    div.faq-body > div.faq-card
+    {
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: inline-block;
+        width: 25%;
+        /* min-height: 223px; */
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        margin-right: 20px;
+        word-wrap: break-word;
+    }
+
+    div.faq-card > p.faq-question
+    {
+        font-family: utsaahFont;
+        /* font-style: normal; */
+        font-weight: 600;
+        font-size: 18px;
+        align-items: center;
+        overflow-wrap: break-word;
+        white-space: normal;
+        color: #000000;
+    }
+
+    div.faq-card > p.faq-answer
+    {
+        font-family: utsaahFont;
+        /* font-style: normal; */
+        font-weight: normal;
+        font-size: 16px;
+        align-items: center;
+        overflow-wrap: break-word;
+        white-space: normal;
+        color: #000000;
+    }
+
+    p.text-default-faq
+    {
+        font-family: utsaahFont;
+        padding-top: 5px;
+        /* padding: 20px; */
+        /* position: absolute; */
+        /* top: 50%; */
+        /* left: 50%; */
+        font-size: 24px;
+        font-weight: 600;
+        /* margin: -35px 0 0 -35px; */
+        color: white;
+    }
+
+    .content-wrapper
+    {
+        padding-top: 1px;
+        padding-bottom: 20px;
+        padding-left: 70px !important;
+        padding-right: 80px !important;
+    }
+
+    .lalemon-navbar
+    {
+        background-color: #E02627;
+    }
+
+    ul.navbar-nav > li.width-20
+    {
+        width: 20%;
+        padding-top: 10px;
+    }
+
+    ul.navbar-nav > li > a 
+    {
+        z-index: 1;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    ul.navbar-nav > li > div.active
+    {
+        width: 60%;
+        background-color: #E02627;
+        position: absolute;
+        left: 58px;
+        border-bottom-right-radius: 75%;
+        border-bottom-left-radius: 75%;
+        top: 45px;
+        padding-bottom: 50px;
+    }
+
+    
+
+    p.text-default-promo
+    {
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 22px;
+        font-weight: bold;
+        margin: -40px 0 0 -100px;
+    }
+
+    div.floating-btn-container
+    {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width: 7%;
+        top: 120px;
+        text-align: center;
+        z-index: 1;
+        right: 16px;
+        position: fixed;
+    }
+
+    img.sc-testimoni
+    {
+        width: 1350px;
+    }
+
+    img.main-topic
+    {
+        border-radius: 10px;
+        width: 100%;
+        height: 325px;
+    }
+
+    div.topic-img-container
+    {
+        position: relative;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    p.text-topic-default
+    {
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 22px;
+        font-weight: bold;
+        margin: -55px 0 0 -55px;
+        color: white;
+    }
+
+    .footer-navbar
+    {
+        width: 84% !important;
+        display: inline-block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
+
+    div#footer > ul > li > p
+    {
+        font-size: 22px;
+        text-align: center;
+        color: white;
+    }
+
+    div.margin-lg-left-30
+    {
+        margin-left: 30px;
+    }
+
+    img.main-image-lalemon
+    {
+        width : 300px;
+        height: 120px;
+    }
+
+    p.txt-footer
+    {
+        text-align: center;
+        color: white;
+        font-size: 16px;
+    }
+}
